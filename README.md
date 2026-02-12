@@ -1,4 +1,4 @@
-# AI Project Idea Generator 🚀
+# Project Idea Generator 🚀
 
 An AI-powered web application that helps students and developers discover meaningful, skill-aligned project ideas.
 
