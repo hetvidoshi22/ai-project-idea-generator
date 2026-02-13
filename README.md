@@ -34,7 +34,6 @@ The system enforces structured outputs and validates responses before presenting
 
 **Backend**
 - FastAPI  
-- Pydantic  
 
 **Frontend**
 - HTML  
@@ -43,7 +42,6 @@ The system enforces structured outputs and validates responses before presenting
 
 **AI Integration**
 - LLM API  
-- Structured prompt engineering  
 
 **Database**
 - PostgreSQL  
