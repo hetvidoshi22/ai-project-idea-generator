@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator-card">
+    <h1>🧮 Calculator</h1>
+
+    <div class="form-group">
+      <label>Operation</label>
+      <select id="operation">
+        <option value="add">Addition (+)</option>
+        <option value="subtract">Subtraction (-)</option>
+        <option value="multiply">Multiplication (×)</option>
+        <option value="divide">Division (÷)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>First Number</label>
+      <input type="number" id="num1" placeholder="Enter first number">
+    </div>
+
+    <div class="form-group">
+      <label>Second Number</label>
+      <input type="number" id="num2" placeholder="Enter second number">
+    </div>
+
+    <button id="calculateBtn">Calculate</button>
+
+    <div class="result-box" id="result">
+      Result: —
+    </div>
+
+    <div class="history-box">
+      <h3>History</h3>
+      <ul id="history"></ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
